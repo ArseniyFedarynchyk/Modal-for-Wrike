@@ -1,0 +1,16 @@
+.radio-select {
+    position: absolute;
+    margin-left: -1000px;
+    height: 0;
+    width: 0;
+    appearance: none;
+}
+
+.radio-select:checked + .card,
+.radio-select:checked + .card .card__header {
+    border-color: #4468FB;
+}
+
+.radio-select:checked + .card .card_icon {
+    fill: #4468FB;
+}
